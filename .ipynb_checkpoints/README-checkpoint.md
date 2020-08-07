@@ -55,7 +55,6 @@ Last step! Execute the `hd-wallet-derive` library to derive `BIP32` addresses an
 
 Everyone, in admin mode, run
 - ln -s hd-wallet-derive/hd-wallet-derive.php derive
-```
 
 
 # HD-WALLET
