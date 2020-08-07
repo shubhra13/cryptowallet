@@ -97,6 +97,7 @@ coins[BTCTEST]=btc
 pp = pprint.PrettyPrinter(indent=4)
 pp.pprint(coins)
 
+# getting account of one of the prevKey
 accountE = priv_key_to_account(ETH, coins[ETH][0]['privkey'])
 send_tx(ETH, accountE, "0xc470b0A110C03636d5a6B8821aa34aED59E9f920", 1)
 
